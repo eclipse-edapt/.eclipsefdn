@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-edapt') {
+orgs.newOrg('modeling.edapt', 'eclipse-edapt') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
